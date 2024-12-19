@@ -23,7 +23,7 @@ const greeting = {
   username: "Taymoor Ghazanfar",
   title: "Hi, I'm Taymoor",
   subTitle: emoji(
-    "A Passionate Android Developer 🚀 Delivering High-Performance Apps Used by Over 20M+ Users"
+    "A Passionate Android Developer 🚀 Delivering High-Performance Apps Used by 20M+ Users"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -230,7 +230,7 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Projects",
+  title: "Big Projects",
   subtitle: "Companies, and apps where I’ve built and shaped the technology.",
   projects: [
     {
@@ -513,12 +513,19 @@ const resumeSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
+// const contactInfo = {
+//   title: emoji("Contact Me ☎️"),
+//   subtitle:
+//     "Feel free to reach out to discuss a project or simply connect—my inbox is always open.",
+//   number: "+92-306-918-5958",
+//   email_address: "taymoor.gr@gmail.com"
+// };
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Feel free to reach out to discuss a project or simply connect—my inbox is always open.",
-  number: "+92-306-918-5958",
-  email_address: "taymoor.gr@gmail.com"
+    "Discuss a project or just want to say hi? My Inbox is open for all.",
+  number: "+92-0000000000",
+  email_address: "saadpasta70@gmail.com"
 };
 
 // Twitter Section
