@@ -48,9 +48,9 @@ function Header() {
               <a href="#skills">Skills</a>
             </li>
           )}
-          {viewExperience && (
+          {viewProjects && (
             <li>
-              <a href="#experience">Work Experiences</a>
+              <a href="#projects">Projects</a>
             </li>
           )}
           {viewOpenSource && (
@@ -58,9 +58,9 @@ function Header() {
               <a href="#opensource">Open Source</a>
             </li>
           )}
-          {viewProjects && (
+          {viewExperience && (
             <li>
-              <a href="#projects">Projects</a>
+              <a href="#experience">Work Experiences</a>
             </li>
           )}
           {viewAchievement && (
