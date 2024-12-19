@@ -224,13 +224,13 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Projects",
   subtitle: "Companies, and apps where I’ve built and shaped the technology.",
   projects: [
     {
@@ -513,19 +513,12 @@ const resumeSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
-// const contactInfo = {
-//   title: emoji("Contact Me ☎️"),
-//   subtitle:
-//     "Feel free to reach out to discuss a project or simply connect—my inbox is always open.",
-//   number: "+92-306-918-5958",
-//   email_address: "taymoor.gr@gmail.com"
-// };
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Feel free to reach out to discuss a project or simply connect—my inbox is always open.",
+  number: "+92-306-918-5958",
+  email_address: "taymoor.gr@gmail.com"
 };
 
 // Twitter Section
