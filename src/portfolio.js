@@ -319,7 +319,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/app_blissiree.png"),
-      projectName: "Blissiree",
+      projectName: "Blissree",
       projectDesc:
         "A minimalist mental health app with a comforting UI to overcome anxiety & depression.",
       footerLink: [
