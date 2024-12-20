@@ -516,7 +516,7 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Feel free to reach out to discuss a project or simply connect—my inbox is always open.",
+    "Feel free to reach out to discuss a project or simply connect. My inbox is always open.",
   number: "+92-306-918-5958",
   email_address: "taymoor.gr@gmail.com"
 };
