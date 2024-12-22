@@ -23,10 +23,10 @@ const greeting = {
   username: "Taymoor Ghazanfar",
   title: "Hi, I'm Taymoor",
   subTitle: emoji(
-    "A Passionate Android Developer 🚀 Delivering High-Performance Apps Used by 20M+ Users"
+    "A Passionate Android Developer 🚀 Crafting High-Impact, Scalable Apps Empowering 20M+ Users Worldwide"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1Ewt-Emm4bSMI-WnWGiCCwNal49XG4lWu/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -49,11 +49,10 @@ const skillsSection = {
   subTitle:
     "Craft interactive, high-performance mobile apps that drive meaningful impact for users & businesses",
   skills: [
-    emoji(
-      "⚡ Expert in architecting scalable, high-performance Android apps with MVVM and Clean Architecture"
-    ),
+    emoji("⚡ Expert in architecting scalable, high-performance Android apps with MVVM and Clean Architecture"),
     emoji("⚡ Proficient in leveraging Jetpack components and modern Android development practices with Kotlin"),
-    emoji("⚡ Skilled in resolving complex bugs and optimizing performance using profiling tools and analytics")
+    emoji("⚡ Skilled in resolving complex bugs and optimizing performance using profiling tools and analytics"),
+    emoji("⚡ Proficient in understanding client needs and business domain requirements to efficiently design and deliver tailored Android solutions")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -77,7 +76,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-brands fa-uikit"
     },
     {
-      skillName: "Coroutines/Flows",
+      skillName: "Coroutines / Flows",
       fontAwesomeClassname: "fas fa-solid fa-code"
     },
     {
@@ -223,14 +222,14 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
   display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Projects",
+  title: emoji("Projects ⌨️"),
   subtitle: "Companies, and apps where I’ve built and shaped the technology.",
   projects: [
     {
@@ -305,7 +304,7 @@ const bigProjects = {
       image: require("./assets/images/app_phoneskope.png"),
       projectName: "Phone Skope",
       projectDesc:
-        "A smart video editor designed specifically for wildlife & nature photographers.",
+        "A smart camera app designed specifically for wildlife & nature photographers.",
       footerLink: [
         {
           name: "Get it on Google Play",
@@ -319,7 +318,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/app_blissiree.png"),
-      projectName: "Blissree",
+      projectName: "Blissiree",
       projectDesc:
         "A minimalist mental health app with a comforting UI to overcome anxiety & depression.",
       footerLink: [
@@ -329,7 +328,7 @@ const bigProjects = {
         },
         {
           name: "Visit Website",
-          url: "https://codesorbit.com/portfolio/phoneskope/"
+          url: "https://codesorbit.com/portfolio/blissiree/"
         }
       ]
     },
@@ -373,18 +372,6 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/app_business_card.png"),
-      projectName: "Business Card Maker",
-      projectDesc:
-        "Design stunning business cards: customizable templates, logos, QR codes, and more.",
-      footerLink: [
-        {
-          name: "Get it on Google Play",
-          url: "https://play.google.com/store/apps/details?id=com.business.visiting.card.creator.editor"
-        }
-      ]
-    },
-    {
       image: require("./assets/images/app_garden_editor.png"),
       projectName: "Photo Frame Editor",
       projectDesc:
@@ -393,6 +380,18 @@ const bigProjects = {
         {
           name: "Get it on Google Play",
           url: "https://play.google.com/store/apps/details?id=com.flower.garden.photo.frames.editor"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/app_business_card.png"),
+      projectName: "Business Card Maker",
+      projectDesc:
+        "Design stunning business cards: customizable templates, logos, QR codes, and more.",
+      footerLink: [
+        {
+          name: "Get it on Google Play",
+          url: "https://play.google.com/store/apps/details?id=com.business.visiting.card.creator.editor"
         }
       ]
     }
@@ -404,7 +403,7 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Honors and Accomplishments 🏆"),
+  title: emoji("Honors and Accomplishments 🏅"),
   subtitle:
     "Achievements, Awards and Some Cool Stuff that I have done !",
 
@@ -514,11 +513,11 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me 👋"),
   subtitle:
     "Feel free to reach out to discuss a project or simply connect. My inbox is always open.",
-  number: "+92-306-918-5958",
-  email_address: "taymoor.gr@gmail.com"
+  number: emoji("+92-306-918-5958 📞"),
+  email_address: emoji("taymoor.gr@gmail.com ✉️")
 };
 
 // Twitter Section
