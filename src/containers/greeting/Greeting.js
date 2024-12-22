@@ -44,6 +44,7 @@ export default function Greeting() {
                   <a
                     href={greeting.resumeLink}
                     target="_blank"
+                    rel="noreferrer"
                     className="download-link-button"
                   >
                     <Button text="Download my resume" />
