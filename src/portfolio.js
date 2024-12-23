@@ -26,7 +26,7 @@ const greeting = {
     "A Passionate Android Developer 🚀 Crafting High-Impact, Scalable Apps Empowering 20M+ Users Worldwide"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1Ewt-Emm4bSMI-WnWGiCCwNal49XG4lWu/view?usp=drive_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/140WjmOu-_npmYXUdU2IBh0b03UxFiuqj/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
