@@ -26,7 +26,7 @@ const greeting = {
     "A Passionate Android Developer 🚀 Crafting High-Impact, Scalable Apps Empowering 20M+ Users Worldwide"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1bxTTqNGgs39jfJ0KqFHlzqurH3cQkItS/view?usp=drive_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1bxTTqNGgs39jfJ0KqFHlzqurH3cQkItS/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -34,7 +34,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/taymoorgr",
-  linkedin: "https://www.linkedin.com/in/taymoorgr/",
+  linkedin: "https://www.linkedin.com/in/taymoorgr",
   gmail: "taymoor.gr@gmail.com",
   stackoverflow: "https://stackoverflow.com/users/23787625/taymoor-ghazanfar",
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -236,7 +236,7 @@ const bigProjects = {
       image: require("./assets/images/app_foodb.png"),
       projectName: "Foodb",
       projectDesc:
-        "An Award-winning EPOS and payment provider serving across the UK",
+        "Award-winning POS applications and payment processor serving across the UK",
       footerLink: [
         {
           name: "Visit Website",
