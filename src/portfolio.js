@@ -178,7 +178,7 @@ const workExperiences = {
       date: "Jul 2024 – Present",
       descBullets: [
         "Led development of a feature-rich EPOS application with seamless hardware integration and optimized performance.",
-        "Reduced build times by 25% and achieved a 0% crash and ANR rate for exceptional app stability.",
+        "Advised and enforced SOLID principles and Clean Architecture, ensuring scalable, maintainable, and high-quality project development workflows.",
         "Supported company expansion by driving a 50% increase in customer acquisition through innovative solutions."
       ]
     },
@@ -188,7 +188,7 @@ const workExperiences = {
       companylogo: require("./assets/images/funsol_logo.jpg"),
       date: "Sep 2023 – Jun 2024",
       descBullets: [
-        "Developed AI-powered antivirus and multi-tool Android apps, driving 10M+ downloads and a 15% revenue increase through effective monetization strategies.",
+        "Developed AI-powered antivirus and multi-tool Android apps, driving 10M+ downloads and a 20% revenue increase through effective monetization strategies.",
         "Led workshops on Android best practices, fostering team growth and enhancing development standards.",
         "Recognized with the Emerging Talent of the Year award for outstanding contributions and impact."
       ]
@@ -199,7 +199,7 @@ const workExperiences = {
       companylogo: require("./assets/images/codesorbit_logo.jpg"),
       date: "Dec 2022 – Aug 2023",
       descBullets: [
-        "Engineered the Frankzone food delivery app, integrating real-time tracking, 3D secure payments, and video conferencing features.",
+        "Collaborated closely with customers to understand project requirements and deliver actionable solutions, achieving a 100% client satisfaction rate.",
         "Developed reusable library modules hosted on jitpack.io, improving team efficiency by 25%.",
         "Architected a cloud storage app that reduced file upload sizes by 30%, optimizing app performance."
       ]
@@ -210,9 +210,9 @@ const workExperiences = {
       companylogo: require("./assets/images/mawgif_logo.png"),
       date: "Nov 2021 – Oct 2022",
       descBullets: [
-        "Crafted and maintained the Mawgif car parking app, serving 500,000+ users with seamless functionality.",
-        "Utilized advanced Android technologies (MVVM, Dagger, Retrofit, RxJava) to build a scalable and maintainable app.",
-        "Integrated payment gateways, location services, and multilingual support for enhanced user experience."
+        "Crafted and maintained the Mawgif car parking app, serving 500,000+ users all over the Middle East.",
+        "Implemented 3D secure payments and OAuth2/HMAC authentication, securing transactions and network requests, boosting security and user trust.",
+        "Integrated CI/CD with GitHub Actions, optimizing Gradle build times and streamlining deployment workflows by 40%."
       ]
     }
   ]
