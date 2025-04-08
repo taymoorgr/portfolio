@@ -300,22 +300,22 @@ const bigProjects = {
         }
       ]
     },
-    {
-      image: require("./assets/images/app_phoneskope.png"),
-      projectName: "Phone Skope",
-      projectDesc:
-        "A smart camera app designed specifically for wildlife & nature photographers.",
-      footerLink: [
-        {
-          name: "Get it on Google Play",
-          url: "https://play.google.com/store/apps/details?id=com.phonescope.camera2"
-        },
-        {
-          name: "Visit Website",
-          url: "https://codesorbit.com/portfolio/phoneskope/"
-        }
-      ]
-    },
+    // {
+    //   image: require("./assets/images/app_phoneskope.png"),
+    //   projectName: "Phone Skope",
+    //   projectDesc:
+    //     "A smart camera app designed specifically for wildlife & nature photographers.",
+    //   footerLink: [
+    //     {
+    //       name: "Get it on Google Play",
+    //       url: "https://play.google.com/store/apps/details?id=com.phonescope.camera2"
+    //     },
+    //     {
+    //       name: "Visit Website",
+    //       url: "https://codesorbit.com/portfolio/phoneskope/"
+    //     }
+    //   ]
+    // },
     {
       image: require("./assets/images/app_blissiree.png"),
       projectName: "Blissiree",
@@ -359,18 +359,18 @@ const bigProjects = {
         }
       ]
     },
-    {
-      image: require("./assets/images/app_multi_tools.png"),
-      projectName: "Smart Tools",
-      projectDesc:
-        "App locker, scan documents, translate languages, read PDFs, weather updates and more!",
-      footerLink: [
-        {
-          name: "Get it on Google Play",
-          url: "https://play.google.com/store/apps/details?id=tools.qrcode.scanner.language.translator.live.weather.forcast.applock"
-        }
-      ]
-    },
+    // {
+    //   image: require("./assets/images/app_multi_tools.png"),
+    //   projectName: "Smart Tools",
+    //   projectDesc:
+    //     "App locker, scan documents, translate languages, read PDFs, weather updates and more!",
+    //   footerLink: [
+    //     {
+    //       name: "Get it on Google Play",
+    //       url: "https://play.google.com/store/apps/details?id=tools.qrcode.scanner.language.translator.live.weather.forcast.applock"
+    //     }
+    //   ]
+    // },
     {
       image: require("./assets/images/app_garden_editor.png"),
       projectName: "Photo Frame Editor",
