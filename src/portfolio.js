@@ -49,10 +49,18 @@ const skillsSection = {
   subTitle:
     "Craft interactive, high-performance mobile apps that drive meaningful impact for users & businesses",
   skills: [
-    emoji("⚡ Expert in architecting scalable, high-performance Android apps with MVVM and Clean Architecture"),
-    emoji("⚡ Proficient in leveraging Jetpack components and modern Android development practices with Kotlin"),
-    emoji("⚡ Skilled in resolving complex bugs and optimizing performance using profiling tools and analytics"),
-    emoji("⚡ Proficient in understanding client needs and business domain requirements to efficiently design and deliver tailored Android solutions")
+    emoji(
+      "⚡ Expert in architecting scalable, high-performance Android apps with MVVM and Clean Architecture"
+    ),
+    emoji(
+      "⚡ Proficient in leveraging Jetpack components and modern Android development practices with Kotlin"
+    ),
+    emoji(
+      "⚡ Skilled in resolving complex bugs and optimizing performance using profiling tools and analytics"
+    ),
+    emoji(
+      "⚡ Proficient in understanding client needs and business domain requirements to efficiently design and deliver tailored Android solutions"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -165,7 +173,6 @@ const techStack = {
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
-
 // Work experience section
 
 const workExperiences = {
@@ -233,18 +240,6 @@ const bigProjects = {
   subtitle: "Companies, and apps where I’ve built and shaped the technology.",
   projects: [
     {
-      image: require("./assets/images/app_foodb.png"),
-      projectName: "Foodb",
-      projectDesc:
-        "Award-winning POS applications and payment processor serving across the UK",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://foodb.co.uk/products/epos"
-        }
-      ]
-    },
-    {
       image: require("./assets/images/app_mawgif.png"),
       projectName: "Mawgif",
       projectDesc:
@@ -267,8 +262,32 @@ const bigProjects = {
         "Secure and efficient kiosk platform for quick, contactless donations for charities.",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "More Details",
           url: "https://tapdonate.co.uk/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/app_foodb_epos.png"),
+      projectName: "Foodb EPOS",
+      projectDesc:
+        "Award-winning EPOS application and payment processor serving across the UK",
+      footerLink: [
+        {
+          name: "More Details",
+          url: "https://foodb.co.uk/products/epos"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/app_foodb_handheld.png"),
+      projectName: "Foodb Handheld",
+      projectDesc:
+        "Mobile version of the EPOS designed for on-the-go order taking.",
+      footerLink: [
+        {
+          name: "More Details",
+          url: "https://foodb.co.uk/products/handheld-ordering"
         }
       ]
     },
@@ -281,6 +300,34 @@ const bigProjects = {
         {
           name: "Get it on Google Play",
           url: "https://play.google.com/store/apps/details?id=com.antivirus.viruscleaner.mobilesecurity"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/app_phone_cleaner.png"),
+      projectName: "Phone Cleaner",
+      projectDesc:
+        "Clean your phone in one tap: junk removal, large files finder, duplicate finder.",
+      footerLink: [
+        {
+          name: "Get it on Google Play",
+          url: "https://play.google.com/store/apps/details?id=phonecleaner.viruscleaner.junkcleaner.cachecleaner.androidmaster"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/app_voice_analyzer.png"),
+      projectName: "Real-time Voice Analyzer",
+      projectDesc:
+        "A cutting-edge voice detection tool for identifying respiratory viruses.",
+      footerLink: [
+        {
+          name: "Get it on Google Play",
+          url: "https://play.google.com/store/apps/details?id=com.embarcadero.AIVA.RealTime"
+        },
+        {
+          name: "Visit Website",
+          url: "https://codesorbit.com/portfolio/real-time-voice-analyzer/"
         }
       ]
     },
@@ -300,22 +347,6 @@ const bigProjects = {
         }
       ]
     },
-    // {
-    //   image: require("./assets/images/app_phoneskope.png"),
-    //   projectName: "Phone Skope",
-    //   projectDesc:
-    //     "A smart camera app designed specifically for wildlife & nature photographers.",
-    //   footerLink: [
-    //     {
-    //       name: "Get it on Google Play",
-    //       url: "https://play.google.com/store/apps/details?id=com.phonescope.camera2"
-    //     },
-    //     {
-    //       name: "Visit Website",
-    //       url: "https://codesorbit.com/portfolio/phoneskope/"
-    //     }
-    //   ]
-    // },
     {
       image: require("./assets/images/app_blissiree.png"),
       projectName: "Blissiree",
@@ -333,65 +364,46 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/app_voice_analyzer.png"),
-      projectName: "Real-time Voice Analyzer",
-      projectDesc: "A cutting-edge voice detection tool for identifying respiratory viruses.",
+      image: require("./assets/images/frankzone.png"),
+      projectName: "Frankzone",
+      projectDesc:
+        "An all-in-one lifestyle platform that brings food, shopping, and essential services together.",
       footerLink: [
         {
           name: "Get it on Google Play",
-          url: "https://play.google.com/store/apps/details?id=com.embarcadero.AIVA.RealTime"
+          url: "https://play.google.com/store/apps/details?id=com.frank.zone.vendor"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/spreadlee.png"),
+      projectName: "SpreadLee",
+      projectDesc:
+        "An unique platform to connect customers with marketing companies and influencers.",
+      footerLink: [
+        {
+          name: "Get it on Google Play",
+          url: "https://play.google.com/store/apps/details?id=com.jafton.spreadlee"
         },
         {
           name: "Visit Website",
-          url: "https://codesorbit.com/portfolio/real-time-voice-analyzer/"
+          url: "https://spreadlee.com/"
         }
       ]
     },
     {
-      image: require("./assets/images/app_phone_cleaner.png"),
-      projectName: "Phone Cleaner",
+      image: require("./assets/images/app_multi_tools.png"),
+      projectName: "Smart Tools",
       projectDesc:
-        "Clean your phone in one tap: junk removal, large files finder, duplicate finder.",
+        "App locker, scan documents, translate languages, read PDFs, weather updates and more!",
       footerLink: [
         {
-          name: "Get it on Google Play",
-          url: "https://play.google.com/store/apps/details?id=phonecleaner.viruscleaner.junkcleaner.cachecleaner.androidmaster"
-        }
-      ]
-    },
-    // {
-    //   image: require("./assets/images/app_multi_tools.png"),
-    //   projectName: "Smart Tools",
-    //   projectDesc:
-    //     "App locker, scan documents, translate languages, read PDFs, weather updates and more!",
-    //   footerLink: [
-    //     {
-    //       name: "Get it on Google Play",
-    //       url: "https://play.google.com/store/apps/details?id=tools.qrcode.scanner.language.translator.live.weather.forcast.applock"
-    //     }
-    //   ]
-    // },
-    {
-      image: require("./assets/images/app_garden_editor.png"),
-      projectName: "Photo Frame Editor",
-      projectDesc:
-        "Transform your photos with nature inspired backgrounds, frames, and stickers.",
-      footerLink: [
+          name: "Download Now",
+          url: "https://drive.usercontent.google.com/download?id=1Onw-jClcYd6dA4KsW8XOsMEpKtBHRbnV&authuser=0"
+        },
         {
-          name: "Get it on Google Play",
-          url: "https://play.google.com/store/apps/details?id=com.flower.garden.photo.frames.editor"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/app_business_card.png"),
-      projectName: "Business Card Maker",
-      projectDesc:
-        "Design stunning business cards: customizable templates, logos, QR codes, and more.",
-      footerLink: [
-        {
-          name: "Get it on Google Play",
-          url: "https://play.google.com/store/apps/details?id=com.business.visiting.card.creator.editor"
+          name: "View On GitHub",
+          url: "https://github.com/taymoorgr/smart-tools"
         }
       ]
     }
@@ -404,8 +416,7 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Honors and Accomplishments 🏅"),
-  subtitle:
-    "Achievements, Awards and Some Cool Stuff that I have done !",
+  subtitle: "Achievements, Awards and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
