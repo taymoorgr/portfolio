@@ -23,7 +23,7 @@ const greeting = {
   username: "Taymoor Ghazanfar",
   title: "Hi, I'm Taymoor",
   subTitle: emoji(
-    "A Passionate Android Developer 🚀 Crafting High-Impact, Scalable Apps Empowering 20M+ Users Worldwide"
+    "A Passionate Android Developer 🚀 Crafting High-Impact, Scalable Apps Empowering 10M+ Users Worldwide"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1bxTTqNGgs39jfJ0KqFHlzqurH3cQkItS/view?usp=drive_link", // Set to empty to hide the button
@@ -162,11 +162,11 @@ const techStack = {
       progressPercentage: "90%"
     },
     {
-      Stack: "Threads & Structured Concurrency",
+      Stack: "Asynchronous Programming",
       progressPercentage: "80%"
     },
     {
-      Stack: "Profiling & Optimizations", //Insert stack or technology you have experience in
+      Stack: "Performance & Optimizations", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     }
   ],
@@ -220,6 +220,17 @@ const workExperiences = {
         "Crafted and maintained the Mawgif car parking app, serving 500,000+ users all over the Middle East.",
         "Implemented 3D secure payments and OAuth2/HMAC authentication, securing transactions and network requests, boosting security and user trust.",
         "Integrated CI/CD with GitHub Actions, optimizing Gradle build times and streamlining deployment workflows by 40%."
+      ]
+    },
+    {
+      role: "Android Developer",
+      company: "Freelance (Fiverr)",
+      companylogo: require("./assets/images/fiverr_logo.png"),
+      date: "Feb 2020 – Oct 2021",
+      descBullets: [
+        "https://www.fiverr.com/taymoorabbas",
+        "Built a high-performance VPN app in Kotlin with OpenConnect, AES-256 encryption, and multi-protocol support (OpenVPN, WireGuard, IKEv2) for a UAE-based client.",
+        "Developed a real-time license plate scanning app for Haiti’s traffic police using Google Cloud Vision API and a Node.js backend for instant challan issuance."
       ]
     }
   ]
@@ -295,7 +306,7 @@ const bigProjects = {
       image: require("./assets/images/app_antivirus.png"),
       projectName: "Anti-virus",
       projectDesc:
-        "AI Powered antivirus app with virus removal, app scanning, and network protection.",
+        "A virus removal app with hash-based virus detection, app scanning, and network protection.",
       footerLink: [
         {
           name: "Get it on Google Play",
@@ -399,7 +410,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Download Now",
-          url: "https://drive.usercontent.google.com/download?id=1Onw-jClcYd6dA4KsW8XOsMEpKtBHRbnV&authuser=0"
+          url: "https://drive.usercontent.google.com/uc?id=1EykUMVZzKFqk_QmTmImwv8Bh9vmR0L_Y&export=download"
         },
         {
           name: "View On GitHub",
