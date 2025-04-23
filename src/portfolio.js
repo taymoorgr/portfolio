@@ -26,7 +26,7 @@ const greeting = {
     "A Passionate Android Developer 🚀 Crafting High-Impact, Scalable Apps Empowering 10M+ Users Worldwide"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1bxTTqNGgs39jfJ0KqFHlzqurH3cQkItS/view?usp=drive_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1EykUMVZzKFqk_QmTmImwv8Bh9vmR0L_Y/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -230,7 +230,7 @@ const workExperiences = {
       descBullets: [
         "https://www.fiverr.com/taymoorabbas",
         "Built a high-performance VPN app in Kotlin with OpenConnect, AES-256 encryption, and multi-protocol support (OpenVPN, WireGuard, IKEv2) for a UAE-based client.",
-        "Developed a real-time license plate scanning app for Haiti’s traffic police using Google Cloud Vision API and a Node.js backend for instant challan issuance."
+        "Developed a real-time license plate scanning app for Haiti’s traffic police using Google Cloud Vision API and a Node.js backend for instant ticket issuance."
       ]
     }
   ]
@@ -410,7 +410,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Download Now",
-          url: "https://drive.usercontent.google.com/uc?id=1EykUMVZzKFqk_QmTmImwv8Bh9vmR0L_Y&export=download"
+          url: "https://drive.usercontent.google.com/download?id=1Onw-jClcYd6dA4KsW8XOsMEpKtBHRbnV&authuser=0"
         },
         {
           name: "View On GitHub",
